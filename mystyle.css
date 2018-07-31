@@ -1,0 +1,95 @@
+#outerbox
+{
+	width:1200px;
+	overflow:hidden;
+}
+#sliderbox
+{
+	position:relative;
+	width:6000px;
+	animation-name:Home;
+	animation-duration:20s;
+	animation-iteration-count:infinite;
+}
+#sliderbox img
+{
+	float:left;
+}
+@keyframes Home
+{
+	0%
+	{
+		left:0px;
+	}
+	15%
+	{
+		left:0px;
+	}
+	20%
+	{
+		left:-1200px;
+	}
+	35%
+	{
+		left:-1200px;
+	}
+	40%
+	{
+		left:-2400px;
+	}
+	55%
+	{
+		left:-2400px;
+	}
+	60%
+	{
+		left:-3600px;
+	}
+	75%
+	{
+		left:-3600px;
+	}
+	80%
+	{
+		left:-4800px;
+	}
+	95%
+	{
+		left:-4800px;
+	}
+	
+	100%
+	{
+		left:-6000px;
+	}
+
+}
+.clsFirstImage{
+	width:350px;
+	height:400px;
+	position: relative;
+	top:0px;
+	left:0px;
+	}
+.clsSecImage{
+	width:350px;
+	height:300px;
+	position: relative;
+	top:0px;
+	left:-150px;
+}
+.RclsFirstImage{
+	width:350px;
+	height:400px;
+	position: relative;
+	top:0px;
+	right:-350px;
+}
+.RclsSecImage{
+	width:350px;
+	height:300px;
+	position: relative;
+	top:0px;
+	left:-300px;
+}
+	

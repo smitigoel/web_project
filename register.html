@@ -1,0 +1,94 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<title>Sign up</title>
+		<style>
+.button {
+    border: 2px solid black;
+	top:50%;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border: 2px solid black;
+	border-radius:15px;
+}
+.button:hover{
+	    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+		color:#DE0C59;
+		border:2px solid #DE0C59;
+
+}
+#test{
+	opacity:0.8;
+	border: 2px solid black;
+	padding:16px 30px;
+	border-radius:10px;
+	}
+div.transbox {
+  margin: 10px 80px 10px 700px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.5;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 10%;
+  color: black;
+}
+#temp{
+	padding: 5px 5px;
+    border: 2px solid black;
+	border:none;
+	top:50%;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+#temp:hover{
+	    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+		color:#DE0C59;
+}
+		</style>
+		<link rel="icon" type="image" href="image/FS-Logo-2.png" />	
+	</head>
+	<body background="image/maxresdefault.jpg">
+	<script language='JavaScript' src="edits.js">
+	</script>
+	
+	<font face="Alegria sans" size="12" color="white">
+	<p>Frosite</p>
+	<div align="right" class="transbox" >
+	<p align="center">Register</p>
+	<form action="reg.php" name="register" method="post" onsubmit=" return reg_validate();">
+			<table align="center">
+				<tr>
+					<td><font face="Alegria sans" size="6">Username </td><td><input type="text" id="test" name="username"><td>
+					<br>
+				</tr>
+				<tr>
+					<td><font face="Alegria sans" size="6">Email Id </td><td><input type="text" id="test" name="email"><td>
+					<br>
+				</tr>
+				<tr>
+					<td><font size="6">Password </td>
+					<td><input type="password" id="test" name="password1"></td>
+				</tr>
+				<tr>
+					<td><font size="6">Retype Password </td>
+					<td><input type="password" id="test" name="password2"></td>
+					
+				</tr>
+			</table>
+			<button type="submit" class="button" value="SignUp">Signup</button>
+			<br>
+			</div>
+			
+
+	</body>
+</html>

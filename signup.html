@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="icon" type="image" href="image/FS-Logo-2.png" />
+			<title>Sign in</title>
+		<style>
+.button {
+    border: 2px solid black;
+	top:50%;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border: 2px solid black;
+	border-radius:15px;
+}
+.button:hover{
+	    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+		color:#DE0C59;
+		border:2px solid #DE0C59;
+		opacity:1;
+}
+#test{
+	max-height:18px;
+	opacity:0.9;
+	border: 2px solid black;
+	padding:18px 30px;
+	border-radius:10px;
+	}
+div.transbox {
+  margin: 10px 80px 10px 700px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.5;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 10%;
+  color: black;
+}
+#temp{
+	opacity:1;
+	padding: 5px 5px;
+    border: 2px solid black;
+	border:none;
+	top:50%;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+#temp:hover{
+	    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+		color:#DE0C59;
+}
+		</style>
+	</head>
+	<body background="image/maxresdefault.jpg">
+		<font face="Alegria sans" size="12" color="white">
+		<p>Frosite</p>
+		<div align="right" class="transbox">
+			<a href="register.html" id="temp" class="button">Create an account</a>
+			<form action="webign.html">
+			<p align="center"style="color;color:#DE0C59;">Sign in</p>
+				<table align="center" cellpadding="5px">
+					<tr>
+						<td><font face="Alegria sans" size="6" color="black">Email Id </td><td><input type="text" id="test" name="email"><td>
+						<br>
+					</tr>
+					<tr>
+						<td><font size="6" color="black">Password </td>
+						<td><input type="password" id="test" name="password"></td>
+					</tr>
+				</table>
+			<br><a href="webign.html" class="button" >Sign in</a>
+			</form>
+		</div>
+		</body>
+</html>

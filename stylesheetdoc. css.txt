@@ -1,0 +1,8 @@
+.my_linkable_button {
+    background: none repeat scroll 0 0 #075482;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-bottom: 26px;
+    padding: 8px;
+}

@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<title>Templates</title>
+		<style>
+		.sidenav {
+    height: 100%;
+    width: 250px; 
+    position: fixed; 	
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+#content{
+	margin: 0px 250px;
+}
+</style>
+	</head>
+	<body id="content">
+	<br>
+	<P align="center" style="font-size:40;">Creative arts</p>
+	<div id="mySidenav" class="sidenav" >
+		<p style="color:white;" >CATEGORIES ></p>
+		<a href="business.html">Business</a>
+		<a href="ca.html">Creative Arts</a>
+		<a href="restro.html">Restaurants & Food</a>
+		<a href="photo.html">Photography</a>
+	</div>
+	<table>
+		<tr>
+			<td><a href="author.html"><img src="image/author.png" width="400px" height="300px"></a><center><pre>Author</pre></center></td>
+		</tr>
+		<table>
+	</body>
+</html>
