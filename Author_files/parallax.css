@@ -1,0 +1,25 @@
+.parallax{
+	background:url('image/518169-backgrounds.jpg') no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+	height:700px;
+}
+.parallax1{
+	background:url('image/pine-leaves-frost-blurred-bokeh-nature-14629-resized.jpg') no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+	height:500px;
+}
+.parallax2{
+	background:url('image/press-release.jpg') no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+	height:400px;
+}
+.back{
+	background:url('image/vintage_paper_cameo_key_pen_book_76277_1680x1050.jpg') no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+	height:500px;
+}
+
